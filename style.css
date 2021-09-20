@@ -77,6 +77,8 @@ h1 {
     padding: 8px;
     color: #F9FAF8;
     width: 100px;
+    font-size: 14px;
+    font-weight: 800;
 }
 
 h2 {
@@ -84,6 +86,52 @@ h2 {
     font-weight: 1200;
     color: #1F2937;
     text-align: center;
-    padding-top: 36px;
+    padding: 36px;
+}
+.info{
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 150px;
+
+}
+.infogrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
 }
 
+.infoimg {
+    border-width: 5px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3882F6;
+    height: 200px;
+    width: 200px;
+}
+
+.infotext {
+    text-align: center;
+    padding-top: 18px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 128px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 128px;
+    
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: thin;
+    font-style: italic;
+}
+
+.quotecredit {
+    font-size: 24px;
+    text-align: end;
+    font-weight: 900;
+}
